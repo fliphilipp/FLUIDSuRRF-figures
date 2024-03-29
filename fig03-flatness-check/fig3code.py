@@ -637,6 +637,7 @@ def print_lake_info(fn, description='', print_imagery_info=True):
         print('    acquisition time imagery:       %s' % lk.imagery_info['time_imagery'])
         print('    acquisition time ICESat-2:      %s' % lk.imagery_info['time_icesat2'])
         print('    time difference from ICESat-2:  %s (%s)' % (lk.imagery_info['time_diff_from_icesat2'],lk.imagery_info['time_diff_string']))
+        print('    mean cloud probability:         %.1f %%' % lk.imagery_info['mean_cloud_probability'])
     print('')
 
 def run_flatness_checks(file):
