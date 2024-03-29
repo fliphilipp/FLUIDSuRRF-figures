@@ -361,7 +361,6 @@ def read_atl03(filename, geoid_h=True, gtxs_to_read='all'):
     >>> read_atl03(filename='processed_ATL03_20210715182907_03381203_005_01.h5', geoid_h=True)
     """
     
-    print('  reading in', filename)
     granule_id = filename[filename.find('ATL03_'):(filename.find('.h5')+3)]
     
     # open file
@@ -421,10 +420,7 @@ def read_atl03(filename, geoid_h=True, gtxs_to_read='all'):
                  'gtx_dead_time_dict': {}}
 
     # loop through all beams
-    print('  reading in beam:', end=' ')
     for beam in beamlist:
-        
-        print(beam, end=' ')
         try:
             
             if gtx_strength_dict[beam]=='strong':
@@ -492,7 +488,6 @@ def read_atl03(filename, geoid_h=True, gtxs_to_read='all'):
             traceback.print_exc()
             
     f.close()
-    print(' --> done.')
     if len(beamlist)==0:
         return beams_available, ancillary
     else:
