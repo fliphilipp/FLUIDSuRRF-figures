@@ -51,6 +51,16 @@ notebook: [figs9-10-results-maps.ipynb](fig09-10-results-maps/figs9-10-results-m
 
 ![maps of lake locations for BC, with example lake data](figures/fig10-results_map_amery.jpg)
 
+## Fig. 11
+notebook: [fig11-depth-distributions.ipynb](fig11-depth-distributions/fig11-depth-distributions.ipynb)
+
+![melt lake depth distributions vs. elevation](figures/fig11-depth_distributions_elevation.jpg)
+
+## Fig. 12
+notebook: [fig12-comparison-manual-estimates.ipynb](fig12-comparison-manual-estimates/fig12-comparison-manual-estimates.ipynb)
+
+![comparison between surrf and manual estimates](figures/fig12-comparison_manual_estimates.jpg)
+
 ## Supplemental
 
 photon counts by elevation relative to the surface return for saturated pulses by beam
