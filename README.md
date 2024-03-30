@@ -31,5 +31,28 @@ notebook: [fig6-bathymetry-check.ipynb](fig06-bathymetry-check/fig6-bathymetry-c
 
 ![bathymetry check](figures/fig06-bathymetry_check.jpg)
 
+## Fig. 7
+notebook: [fig07-surf-explainer.ipynb](fig07-surrf-explainer/fig07-surf-explainer.ipynb)
+
+![SuRRF fit explainer](figures/fig07-surrf_explainer.jpg)
+
+## Fig. 8
+notebook: [fig8-study-regions.ipynb](fig08-study-regions/fig8-study-regions.ipynb)
+
+![maps of the study regions with ICESat-2 coverage](figures/fig08-study_regions.jpg)
+
+## Fig. 9
+notebook: [figs9-10-results-maps.ipynb](fig09-10-results-maps/figs9-10-results-maps.ipynb)
+
+![maps of lake locations for CW, with example lake data](figures/fig09-results_map_greenland_cw.jpg)
+
+## Fig. 10
+notebook: [figs9-10-results-maps.ipynb](fig09-10-results-maps/figs9-10-results-maps.ipynb)
+
+![maps of lake locations for BC, with example lake data](figures/fig10-results_map_amery.jpg)
+
 ## Supplemental
+
+photon counts by elevation relative to the surface return for saturated pulses by beam
+
 ![saturated pulse counts by beam](figures/supplemental-afterpulses-beams.jpg)
