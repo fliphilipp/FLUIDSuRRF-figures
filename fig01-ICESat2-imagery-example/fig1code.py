@@ -117,7 +117,7 @@ def download_imagery(fn, lk, gt, imagery_filename, days_buffer=5, max_cloud_prob
         days_buffer += increment_days
     
         # get the time difference between ICESat-2 and Sentinel-2 and sort by it 
-        is2time = lk.date_time
+        # is2time = lk.date_time
         def set_time_difference(img, is2time=is2time):
             timediff = ee.Date(is2time).difference(img.get('system:time_start'), 'second').abs()
             return img.set('timediff', timediff)
