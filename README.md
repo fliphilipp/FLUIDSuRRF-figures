@@ -1,5 +1,7 @@
 # Data and Code For FLUID-SuRRF Figures
-For automatic supraglacial lake detection and depth determination in ICESAat-2 ATL03 data. 
+For automatic supraglacial lake detection and depth determination in ICESAat-2 ATL03 data.
+
+[![DOI](https://zenodo.org/badge/779026755.svg)](https://zenodo.org/doi/10.5281/zenodo.10901826)
 
 ## Fig. 1
 notebook: [fig1-IS2-imagery-example.ipynb](fig01-ICESat2-imagery-example/fig1-IS2-imagery-example.ipynb)
