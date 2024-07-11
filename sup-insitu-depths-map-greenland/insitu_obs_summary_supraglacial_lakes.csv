@@ -1,0 +1,11 @@
+lon,lat,date,depth_min,depth_max,n_obs,accuracy_m,instrument,source,IMBIE_basin,IMBIE_name,glacier_type
+-49.1254,69.5345,2005-08-14,1.05,11.5,335,0.1,Garmin Fish Finder 100,Box and Ski (2007),CW,JAKOBSHAVN_ISBRAE,tidewater
+-49.5345,69.4891,2005-08-15,1.25,10.0,338,0.1,Garmin Fish Finder 100,Box and Ski (2007),CW,SERMEQ_AVANNARLEQ,tidewater
+-38.44996,66.46145,2008-07-11,0.7,3.0,21,0.03,Satlantic Profiler II,Sneed and Hamilton (2011),SE,HELHEIMGLETSCHER,tidewater
+-49.494444,69.609722,"2010-07-02, 2010-07-03, 2010-07-05",n/a,4.5,6000,0.25,HDS-5 Lowrance,Tedesco and Steiner (2011),CW,CW_NONAME1,land_terminating
+-48.32203,67.11825,2012-07-20,n/a,3.16,3264,0.025,Ohmex SonarMite 235KHz,Legleiter et al. (2014),SW,ISUNNGUATA-RUSSELL,land_terminating
+-48.10075,66.9025,2012-07-21,n/a,10.45,4383,0.025,Ohmex SonarMite 235KHz,Legleiter et al. (2014),SW,SAQQAP-MAJORQAQ-SOUTHTERRUSSEL_SOUTHQUARUSSEL,land_terminating
+-48.76486,67.18042,2012-07-23,n/a,1.66,1164,0.025,Ohmex SonarMite 235KHz,Legleiter et al. (2014),SW,ISUNNGUATA-RUSSELL,land_terminating
+-21.81817,78.92271,2022-07-09,0.41,8.21,2129,0.2,Lawrence Elite 7 FS,Lutz et al. (2024),NE,ZACHARIAE_ISSTROM,tidewater
+-21.92166,78.90026,2022-07-03,0.46,6.78,981,0.2,Lawrence Elite 7 FS,Lutz et al. (2024),NE,ZACHARIAE_ISSTROM,tidewater
+-21.93727,78.87014,2022-07-09,0.39,7.32,2991,0.2,Lawrence Elite 7 FS,Lutz et al. (2024),NE,ZACHARIAE_ISSTROM,tidewater
