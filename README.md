@@ -19,7 +19,7 @@ ICESat-2 ATL03 data over a supraglacial lake, showing a particularly strong bath
 ## Fig. 2
 made in [lucid](https://lucid.app/lucidchart/f86a9d24-7c33-4b07-829b-20f1b310e198/edit?viewport_loc=-4446%2C-360%2C6086%2C2602%2C0_0&invitationId=inv_ba6f5e48-edd5-4af5-a737-e423cf8edf99).
 
-![method flowchart](figures/fig02-flowchart.jpeg)
+<img alt="mathod flowchart" src="figures/fig02-flowchart.jpeg" width="600">
 Flowchart of the FLUID/SuRRF framework for detecting and determining the depths of supraglacial melt lakes in ICESat-2 data for any melt season over any drainage basin of the Antarctic or Greenland ice sheets. All modules in the blue box can be parallelized for large amounts of input data granules, as a batch of compute jobs on a platform for distributed High-Throughput Computing, such as the OSG Open Science Pool.
 
 ## Fig. 3
@@ -87,9 +87,26 @@ Comparison between SuRRF water depth estimates and the manually annotated ICESat
 Map of *in situ* supraglacial lake depth measurements for the Greenland Ice Sheet (no such data is available over Antarctica)
 
 ![supplemental: map of in situ supraglacial lake depth measurements greenland](figures/supplemental-in-situ-observations.jpg)
+![supplemental: list of in situ supraglacial lake depth measurements greenland](figures/Greenland-In-situ-supraglacial-lake-depths.png)
+
+---
+
+Maps of estimates of unique supraglacial melt lakes sampled by FLUID-SuRRF ICESat-2 lake segments
+
+![supplemental: unique melt lakes map, AIS B-C 2018-19](sup-ground-tracks-unique-lakes/supplemental_test_unique-lakes_B-C_2018-19_300dpi.jpg)
+![supplemental: unique melt lakes map, AIS B-C 2020-21](sup-ground-tracks-unique-lakes/supplemental_test_unique-lakes_B-C_2020-21_300dpi.jpg)
+
+![supplemental: unique melt lakes map, GrIS CW 2019](sup-ground-tracks-unique-lakes/supplemental_test_unique-lakes_CW_2019_300dpi.jpg)
+![supplemental: unique melt lakes map, GrIS CW 2020](sup-ground-tracks-unique-lakes/supplemental_test_unique-lakes_CW_2020_300dpi.jpg)
 
 ---
 
 Per-beam photon counts by elevation relative to the surface return for saturated pulses.
 
 ![supplemental: saturated pulse counts by beam](figures/supplemental-afterpulses-beams.jpg)
+
+---
+
+Figure explaining the reasoning behind the quality heurisics used in the bathymetry check
+
+![supplemental: saturated pulse counts by beam](figures/supplemental-bathy-check-quality-explainer.jpg)
