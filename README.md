@@ -1,7 +1,14 @@
 # Data and Code For FLUID-SuRRF Figures
+[![DOI](https://zenodo.org/badge/779026755.svg)](https://zenodo.org/doi/10.5281/zenodo.10901826)
 For automatic supraglacial lake detection and depth determination in ICESAat-2 ATL03 data.
 
-[![DOI](https://zenodo.org/badge/779026755.svg)](https://zenodo.org/doi/10.5281/zenodo.10901826)
+## Paper:
+**A Framework for Automated Supraglacial Lake Detection and Depth Retrieval in ICESat-2 Photon Data Across the Greenland and Antarctic Ice Sheets
+Philipp Sebastian Arndt (1) and Helen Amanda Fricker (1)**
+
+*(1) Scripps Polar Center, University of California San Diego, 8885 Biological Grade, La Jolla, CA 92037, USA*
+
+[https://doi.org/10.5194/egusphere-2024-1156](https://doi.org/10.5194/egusphere-2024-1156)
 
 ## Fig. 1
 notebook: [fig1-IS2-imagery-example.ipynb](fig01-ICESat2-imagery-example/fig1-IS2-imagery-example.ipynb)
@@ -72,11 +79,17 @@ SuRRF lake depth statistics for two study regions in high and low melt years. a)
 ## Fig. 12
 notebook: [fig12-comparison-manual-estimates.ipynb](fig12-comparison-manual-estimates/fig12-comparison-manual-estimates.ipynb)
 
-![comparison between surrf and manual estimates](figures/fig12-comparison_manual_estimates.jpg)
+![comparison between surrf and manual estimates](figures/fig12-comparison_manual_estimates_allvalues.jpg)
 Comparison between SuRRF water depth estimates and the manually annotated ICESat-2 depths. a)-d): melt lakes on the Amery Ice Shelf with manual annotations from \cite{fricker2021icesat}. e)-i): melt lakes in Southwest Greenland with manual annotations from \cite{melling2024evaluation}. SuRRF depth estimates are shown only where the estimated bathymetric signal confidence exceeds 0.5. To align along-track depths with the ATL03 photons (gray dots), water depth estimates were multiplied by the refractive index for the speed of light in water and subtracted from the surface elevation of each lake (black dotted lines).
 
 ## Supplemental
 
+Map of *in situ* supraglacial lake depth measurements for the Greenland Ice Sheet (no such data is available over Antarctica)
+
+![supplemental: map of in situ supraglacial lake depth measurements greenland](figures/supplemental-in-situ-observations.jpg)
+
+---
+
 Per-beam photon counts by elevation relative to the surface return for saturated pulses.
 
-![saturated pulse counts by beam](figures/supplemental-afterpulses-beams.jpg)
+![supplemental: saturated pulse counts by beam](figures/supplemental-afterpulses-beams.jpg)
