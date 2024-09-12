@@ -345,7 +345,7 @@ def lake_check(imf, xmin, xmax, n_subsegs, df, dfm, axs=None, ax_color='k', plot
         ax.plot(xl, [peak_loc2]*2, 'r-', zorder=1500, lw=0.7)
         ax.set_xlim(xl)
         ax.set_ylim(yl)
-        # ax.set_ylabel('elevation (m)')
+        # ax.set_ylabel('elevation (m a.s.l.)')
         ax.set_xlabel('along-track distance (m)')
         set_axis_color(ax, ax_color)
         
@@ -914,7 +914,7 @@ def make_plot(file, major_frames, yl1, yl2, yl3, plot_fn='plots/bathymetry_check
     ax.set_xlim((df.xatc.min(), df.xatc.max()))
     ax.set_ylim(ylm)
     ax.set_xlabel('along-track distance (m)')
-    ax.set_ylabel('elevation (m)')
+    ax.set_ylabel('elevation (m a.s.l.)')
     
     ###############################################################################################
     # add the example of a passing major frame
@@ -943,7 +943,7 @@ def make_plot(file, major_frames, yl1, yl2, yl3, plot_fn='plots/bathymetry_check
     ax.annotate(r'\textbf{d}', xy=(xarr, yl[1]), xytext=(xarr, yl[1]+(yl1[1]-yl1[0])*arr_len), ha='center', va='bottom', color='r', bbox=boxprops,
                 arrowprops=dict(facecolor='r', shrink=0.01, width=1.5, headwidth=5, headlength=5, edgecolor='none'), fontsize=14)
 
-    axs[1].set_ylabel(r'elevation (m)',color='k')
+    axs[1].set_ylabel(r'elevation (m a.s.l.)',color='k')
 
     # draw boundaries around the lower panels (each include 3 subplots)
     axpass = fig.add_subplot(gs[3:, :5])

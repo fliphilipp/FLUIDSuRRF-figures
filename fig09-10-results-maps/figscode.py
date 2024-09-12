@@ -402,7 +402,7 @@ def plotIS2(fn, ax=None, xlm=[None, None], ylm=[None,None], cmap=cmc.lapaz_r, na
             region = region + ' (%s)' % lk.polygon_filename.split('_')[-2]
         latstr = lk.lat_str[:-2] + '°' + lk.lat_str[-1]
         lonstr = lk.lon_str[:-2] + '°' + lk.lon_str[-1]
-        name = '(%s, %s), %d m.a.s.l.' % (latstr, lonstr, np.round(lk.surface_elevation))
+        name = '(%s, %s), %d m a.s.l.' % (latstr, lonstr, np.round(lk.surface_elevation))
     
     ax.text(0.5, 0.87, '%s' % name, fontsize=plt.rcParams['font.size'], ha='center', va='top', transform=ax.transAxes,
            bbox=dict(facecolor='white', alpha=0.9, boxstyle='round,pad=0.2,rounding_size=0.5', lw=0), fontweight='bold')

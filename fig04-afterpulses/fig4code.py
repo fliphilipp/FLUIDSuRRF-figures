@@ -277,7 +277,7 @@ def plot_afterpulse_removal(fn, fig=None, axes=None):
     for ax in axs:
         ax.set_xlim(xlms)
         ax.set_ylim(ylms)
-        ax.set_ylabel('elevation (m)')
+        ax.set_ylabel('elevation (m a.s.l.)')
         
     axs[-1].ticklabel_format(useOffset=False, style='plain')
     axs[-1].tick_params(axis='x', labelsize=16)
